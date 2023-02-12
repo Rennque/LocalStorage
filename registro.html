@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script3.js" defer></script>
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <form action="" id="profile-form">
+        <section class="header">
+          <h1 id="user-name"></h1>
+        </section>
+        <section class="body">
+          <div>
+          </div>
+          <div>
+            Name:
+            <input
+              type="text"
+              name="display-name"
+              id="display-name"
+              autocomplete="off"
+            />
+          </div>
+          <div>
+           Senha:
+            <input
+              type="password"
+              name="old-password"
+              id="old-password"
+              autocomplete="off"
+            />
+          </div>
+          <div>
+           Nova Senha:
+            <input
+              type="password"
+              name="new-password"
+              id="new-password"
+              autocomplete="off"
+            />
+          </div>
+        </section>
+        <span
+          >Aviso: Senha tem que tem pelo menos 6 caracteres..</span
+        >
+        <section class="footer">
+          <button onclick="store()">Save</button>
+          <button onclick="logout()">logout</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
